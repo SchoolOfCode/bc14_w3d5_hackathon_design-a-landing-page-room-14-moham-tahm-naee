@@ -1,3 +1,7 @@
+:root {
+  --heading-colour: #E29AB3
+}
+
 body {
   font-family: system-ui;
   margin: 0;
@@ -8,7 +12,7 @@ body {
 /* Navbar and welcome section */
 #navbar {
   height: auto;
-  background-color: #E29AB3;
+  background-color: var(--heading-colour);
   position: fixed;
   top: 0;
   left: 0;
@@ -137,12 +141,13 @@ input {
   width: 300px;
   border-radius: 50px;
   border: none;
-  background-color: #E29AB3;
+  background-color: var(--heading-colour);
   color: white;
   padding: 15px;
   font-size: 16px;
 
 }
+
 button {
 
   width: 120px;
@@ -155,7 +160,7 @@ button {
 }
 
 ::placeholder {
-    color: white;
+  color: white;
 }
 
 /* Media queries */
