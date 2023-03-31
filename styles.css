@@ -6,6 +6,7 @@ body {
 
 /* Navbar and welcome section */
 #navbar {
+  height: auto;
   background-color: #E29AB3;
   position: fixed;
   top: 0;
@@ -48,7 +49,6 @@ a:hover {
 h1 {
   /* color: white; */
   font-size: 4rem;
-  font-weight: 700;
 }
 
 h2 {
@@ -72,13 +72,8 @@ h2 {
 
 .project-img {
   flex-basis: calc(33.33% - 2rem);
-  width: 200px;
+  width: 250px;
   height: auto;
-  /* this will maintain the aspect ratio */
-  object-fit: cover;
-  /* this will ensure the entire image is visible within the fixed width/height */
-  max-height: 100%;
-  max-width: 100%;
   margin: 5px;
 }
 
@@ -136,8 +131,40 @@ input, button {
   font-size: 16px;
 }
 
+
+/* Media queries */
+
 @media(max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   h2 {
     font-size: 2.5rem;
+  }
+}
+
+/* For devices with a width of less than 768px (such as phones) */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  a {
+    font-size: 1.4em;
+  }
+
+  #nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-img {
+    flex-basis: calc(50% - 2rem);
   }
 }
