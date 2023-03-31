@@ -14,39 +14,42 @@
       <ul id="nav-list">
         <li><a href="#welcome-section">About US</a></li>
         <li><a href="#projects">What you can build</a></li>
-        <li><a href="#contact">Make an application</a></li>
+        <li><a href="#application">Make an application</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="welcome-section" id="welcome-section">
       <h1>Welcome to the School of Crochet</h1>
-      <img src="./SchoolOfCrochet.jpg" alt="School of Crochet" width="400" height="400">
-      <p>The UK's first nationwide crochet bootcamp. We are the industy leader that will take your crochet skills to the
-        next level.</p>
+      <img src="./images/SchoolOfCrochet2.png" alt="School of Crochet" width="400" height="400">
+      <p>The UK's first nationwide crochet bootcamp. <br> We are the industy leader that will take your crochet skills
+        to the next level.</p>
     </section>
     <section class="projects" id="projects">
       <h2>Some examples of what you can make</h2>
       <div class="projects-grid">
-        <img src="./images/crochet-bear.jpg" alt="crochet bear" class="project-img">
-        <!-- <p class="project-tile"></p> -->
-        <img src="./images/crochet-cow.jpg" alt="crochet cow" class="project-img">
-        <!-- <p class="project-tile"></p> -->
-        <img src="./images/crochet-flowers.jpg" alt="crochet flowers" class="project-img">
-        <!-- <p class="project-tile"></p> -->
-        <img src="./images/crochet-towels.jpg" alt="crochet towels" class="project-img">
-        <!-- <p class="project-tile"></p> -->
-        <img src="./images/crochet-jumper.jpg" alt="crochet jumper" class="project-img">
-        <!-- <p class="project-tile"></p> -->
-        <img src="./images/crochet-cat.jpg" alt="crochet cat" class="project-img">
-        <!-- <p class="project-tile"></p> -->
+        <div class="img-container"><img src="./images/crochet-bear.jpg" alt="crochet bear" class="project-img"></div>
+        <div class="img-container"> <img src="./images/crochet-cow.jpg" alt="crochet cow" class="project-img"></div>
+        <div class="img-container"> <img src="./images/crochet-flowers.jpg" alt="crochet flowers" class="project-img">
+        </div>
+        <div class="img-container"> <img src="./images/crochet-towels.jpg" alt="crochet towels" class="project-img">
+        </div>
+        <div class="img-container"> <img src="./images/crochet-jumper.jpg" alt="crochet jumper" class="project-img">
+        </div>
+        <div class="img-container"> <img src="./images/crochet-cat.jpg" alt="crochet cat" class="project-img"></div>
       </div>
     </section>
-    <section class="contact" id="contact">
-      <div id="contact-header">
+    <section class="application" id="application">
+      <div id="application-header">
         <h2>Make an application</h2>
       </div>
-      <div id="contact-links"></div>
+      <form>
+        <input type="text" id="first-name" name="first-name" placeholder="First name">
+        <input type="text" id="last-name" name="last-name" placeholder="Last name">
+        <input type="email" id="email-address" name="email-address" placeholder="Email address">
+        <input type="tel" id="phone-number" name="phone-number" placeholder="Phone number">
+        <button type="submit">Sign up!</button>
+      </form>
     </section>
   </main>
 </body>
