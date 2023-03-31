@@ -1,5 +1,16 @@
 # Hackathon - Use your UI/UX skills to design your bootcamp landing page
 
+## OVERVIEW 
+We created a user story from a user persona to design a landing page for our School Of Crochet bootcamp. Ultimately our members would be fellow artists and creatives so we chose a colourful layout to highten the users visual experience and make it appear more desirable than competing crochet bootcamps. 
+
+## USER PERSONA 
+
+![USER PERSONA](./images/UserPersona.png)
+
+## WIREFRAME
+
+![HIGH FIDELITY WIREFRAME](./images/HighFidWireframe.png)
+
 For this hackathon, you'll be using the bootcamp idea we brainstormed during the week.
 
 You'll need to go through the UI/UX process we've been examining this week:
